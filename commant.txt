@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=BBL8W-lpNHw  1.30.33
+
+// command  https://www.youtube.com/watch?v=BBL8W-lpNHw&t=1198s
+    pipenv
+pipipenv shell = เปิด shell ของ pipenv
+pipenv install = ติดตั้ง package ทั้งหมดที่อยู่ใน Pipfile
+
+//  python manage.py runserver 
+python manage.py runserver = เปิด server ของ django
+
+// สร้าง app ใน django 
+python manage.py startapp <ชื่อ app> = สร้าง app ใน django
+// สร้างไฟล์ urls.py ใน app ของเรา
+// import httprresponse ใน views.py
+
+
+// เริ่มจากการสร้างทางออก คือ สร้าง views.py ใน app ของเราก่อน
+// สร่าง path ใน urls.py ของ app ของเรา
+
+// {{text}} ใน html คือการเรียกตัวแปร text ที่ส่งมาจาก views.py
+// {% url  %} ใน html คือการเรียกใช้งาน python ใน html
