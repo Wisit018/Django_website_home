@@ -10,10 +10,14 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Shop</h3>
     <!-- วนลูป all_shops title จากไฟล์ views.py -->
     {% for shop in all_shops %}
-      <!-- h3 ลิงค์ไปหน้า shop_id -->
+      <!-- h3 ลิงค์ไปหน้า  -->
 
+    <h1>
+     
       
-      <h3><a href="{% url 'shops' shop.id %}">{{shop.title}}</a></h3>
+    </h1>
+      
+      
       
     {% endfor %}
   
